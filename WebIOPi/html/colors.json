@@ -1,0 +1,36 @@
+[
+    {
+        "bright_up" :   {"color": "[100,13,24,-1]"},
+        "bright_down" : {"macro": "bright_down"},
+        "off" :         {"macro": "off"},
+        "on" :          {"macro": "on"}
+    },
+    {
+        "red" :         {"color": "[100,0,0,-1]", "css_colors": ["",""] },
+        "green" :       {"color": "[0,100,0,-1]"},
+        "blue" :        {"color": "[0,0,100,-1]"},
+        "white" :       {"color": "[100,100,40,-1]"}
+    },
+    {
+        "pink" :        {"color": "[100,0,50,-1]"},
+        "green" :       {"color": "[0,100,0,-1]", "css_colors": ["#00b000", "#0c3b17"]},
+        "MediumBlue" :  {"color": "[6,32,100,-1]"},
+        "flash" :       {"macro": "flash"}
+    },
+    {
+        "DarkOrange" :  {"color": "[100,65,0,-1]"},
+        "green" :       {"color": "[0,100,0,-1]"},
+        "navy" :        {"color": "[50,20,100,-1]"},
+        "night" :       {"color": "[100,0,0,0.5]"}
+    },
+    {
+        "orange" :      {"color": "[100,50,0,-1]"},
+        "green" :       {"color": "[0,100,0,-1]"},
+        "indigo" :      {"color": "[50,0,100,-1]"}
+    },
+    {
+        "yellow" :      {"color": "[100,100,0,-1]"},
+        "SteelBlue" :   {"color": "[27,51,71,-1]"},
+        "violet" :      {"color": "[100,50,100,-1]"}
+    }
+]

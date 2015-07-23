@@ -1,0 +1,12 @@
+#config to interact with the webiopi REST API
+begin
+    button = OFF
+    prog = irexec
+    config = curl -X POST -u webiopi:guigui77 http://192.168.0.132:8000/bleu/float/0 &&  curl -X POST -u webiopi:guigui77 http://192.168.0.132:8000/vert/float/0 &&  curl -X POST -u webiopi:guigui77 http://192.168.0.132:8000/rouge/float/0
+end
+
+begin
+    button = RED
+    prog = irexec
+    config = curl -X POST -u webiopi:guigui77 http://192.168.0.132:8000/rouge/float/0.015 && curl -X POST -u webiopi:guigui77 http://192.168.0.132:8000/bleu/float/0 &&  curl -X POST -u webiopi:guigui77 http://192.168.0.132:8000/vert/float/0 
+end

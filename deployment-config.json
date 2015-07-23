@@ -1,0 +1,8 @@
+{
+  "type": "sftp",
+  "host": "192.168.0.132",
+  "user": "pi",
+  "password": "guigui77",
+  "port": "22",
+  "remote_path": "/home/pi/dev/git_folder/Led-bed/"
+}
